@@ -13,7 +13,7 @@ function Nav({ isOpen, toggleMenu }) {
 
   return (
     <nav
-      className={`w-full md:w-1/2 px-4 py-6 md:px-0 bg-black md:justify-end absolute 
+      className={`w-full md:w-1/2 px-4 py-6 md:px-0 bg-[#121214] md:justify-end absolute 
         md:static top-20 left-0 ${isOpen ? "flex" : "hidden"} md:flex`
       
 }

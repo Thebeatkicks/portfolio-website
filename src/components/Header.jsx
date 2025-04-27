@@ -14,7 +14,7 @@ const Header = () => {
     <header 
         className="
             flex items-center justify-between px-4 md:px-10 h-20
-            relative bg-black text-white
+            relative bg-[#121214] text-white
             "
     >
         <Logo />

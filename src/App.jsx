@@ -13,7 +13,7 @@ function App() {
   return (
     <div 
       className="
-        grid min-h-screen grid-rows-[auto_1fr_auto] bg-gradient-to-br from-purple-300 via-blue-100 to-pink-300
+        grid min-h-screen grid-rows-[auto_1fr_auto] bg-[#1b1b1f] text-white
         "
     >
       <Header />

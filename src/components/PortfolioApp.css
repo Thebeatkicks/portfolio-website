@@ -1,9 +1,11 @@
 
 .container-row {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
     padding: 20px;
+    margin: 0 auto;
    
 }
 
@@ -17,7 +19,7 @@
     margin: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
     text-align: left;
-    min-width: 30%;
+    width: 30%;
 }
 @media (max-width: 768px) {
     .container-row {
@@ -30,15 +32,16 @@
     }
 }
 .card-title {
-    font-size: 1.2rem;
-    color: #333;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffffff;
     margin-bottom: 20px;
-    text-align: center;
+    text-align: left;
 }
 
 .card-text {
     font-size: 0.8rem;
-    color: #666;
+    color: #c9c9c9;
     margin-bottom: 20px;
     text-align: left;
     
