@@ -1,5 +1,6 @@
 import PortfolioApp from "./PortfolioApp";
 
+
 function Portfolio() {
     return (
       <>
@@ -8,7 +9,7 @@ function Portfolio() {
                     skillsOne = "HTML"
                     skillsTwo = "CSS"
                     skillsThree = "PrePros"
-                    summary = "a project I did to recreate a website from a figma design"
+                    summary = "In this project I had to recreate a website from a figma design. I used a pre-processor to make the css more readable and easier to work with."
                     learned = "how to use pre-processors"
                     challenges = "how to work with a hard deadline. Preposessor was new to me and in what order you do things" 
                     link = "https://github.com/Thebeatkicks/test-your-skills"> 
@@ -17,7 +18,7 @@ function Portfolio() {
                     skillsOne = "HTML"
                     skillsTwo = "CSS"
                     skillsThree = "PrePros"
-                    summary = "the first project I did that was a bit more advanced. I used a figma design to recreate a website"
+                    summary = "This was the first project I did that was a bit more advanced. I used a figma design to recreate a website"
                     learned = "how to use flexbox and grid"
                     challenges = "it was hard to get the design right. I had to learn how to use flexbox and grid" 
                     link = "https://github.com/Thebeatkicks/genesis"> 
@@ -31,14 +32,14 @@ function Portfolio() {
                     challenges = "how to troubleshooting errors in React." 
                     link = "https://github.com/Thebeatkicks/react-1"> 
           </PortfolioApp> 
-          <PortfolioApp  title="Test my skills"
-                    skillsOne = "HTML"
-                    skillsTwo = "CSS"
-                    skillsThree = "PrePros"
-                    summary = "a project I did to recreate a website from a figma design"
-                    learned = "how to use pre-processors"
-                    challenges = "how to work with a hard deadline. Preposessor was new to me and in what order you do things" 
-                    link = "https://github.com/Thebeatkicks/test-your-skills"> 
+          <PortfolioApp  title="JavaScript game"
+                    skillsOne = "CSS"
+                    skillsTwo = "JavaScript"
+                    skillsThree = "VSCode"
+                    summary = "Vanilla JS game."
+                    learned = "How to use JavaScript to create a game. How to use VSCode to write code. And how html and css works together with JS"
+                    challenges = "It was hard to get the game to work." 
+                    link = "https://github.com/Thebeatkicks/lesson-7"> 
         </PortfolioApp> 
       </div>
       </>
