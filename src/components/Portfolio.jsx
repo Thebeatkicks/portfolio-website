@@ -11,7 +11,7 @@ function Portfolio() {
       <div className="text-center mt-10 mb-8">
       <button 
         onClick={() => setShowProjects(!showProjects)}
-        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mb-6"
+        className="bg-gray-900 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mb-6"
       >
         {showProjects ? 'Dölj mina projekt' : 'Visa mina projekt'}
       </button>

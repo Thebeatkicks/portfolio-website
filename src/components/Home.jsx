@@ -5,7 +5,7 @@ function Home() {
     <div className='
     mt-10'> 
       
-      <img src={frontpage} alt="Henrik" className="mx-auto mt-4 w-1/2 h-auto grayscale brightness-50" />
+      <img src={frontpage} alt="Henrik" className="mx-auto mt-4 w-1/2 h-auto grayscale brightness-50 rounded-full" />
       <div className="text-center mt-5 mb-10 flex flex-row gap-2 justify-center">
         
                 <span className="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-gray-500/10 ring-inset">
