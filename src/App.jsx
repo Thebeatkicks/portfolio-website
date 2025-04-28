@@ -14,7 +14,7 @@ function App() {
     <div 
       className="
         grid min-h-screen grid-rows-[auto_1fr_auto] bg-[#1b1b1f] text-white
-        "
+        font-poppins"
     >
       <Header />
      <main>
