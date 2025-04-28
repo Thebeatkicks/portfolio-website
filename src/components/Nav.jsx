@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
+import { FaGithub } from "react-icons/fa";
 
 function Nav({ isOpen, toggleMenu }) {
   const navItems = [
@@ -12,6 +13,7 @@ function Nav({ isOpen, toggleMenu }) {
   
 
   return (
+    <>
     <nav
       className={`w-full md:w-1/2 px-4 py-6 md:px-0 bg-[#121214] md:justify-end absolute 
         md:static top-20 left-0 ${isOpen ? "flex" : "hidden"} md:flex`
@@ -28,21 +30,25 @@ function Nav({ isOpen, toggleMenu }) {
       >
         {item.text}
       </Link>
+      
     </li>
+
   ))}
   <li className="hidden md:inline">
-    <Link className="bg-blue-500 hover:bg-blue-700 max-w-36 transition px-6 py-3 rounded-full text-center w-auto" to="/login" onClick={toggleMenu}>
-      Login
-    </Link>
+  <a href="http://github.com/thebeatkicks"className="md-hidden"><img src="https://img.icons8.com/ios-filled/50/ffffff/github.png" alt="github" className="w-6 h-6 inline-block ml-2" /></a>
+    
   </li>
   </ul>
 
 </nav>
 
+
+</>
   );
 Nav.propTypes = {
   isOpen: PropTypes.bool.isRequired,
   toggleMenu: PropTypes.func.isRequired,
+  
 };
 }
 

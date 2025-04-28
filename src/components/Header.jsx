@@ -23,11 +23,8 @@ const Header = () => {
             toggleMenu={toggleMenu}
         />
         <div className="flex items-center gap-4 md:hidden">
-            <Link className="bg-blue-500 hover:bg-blue-700 max-w-36 
-            transition px-6 py-3 rounded-full text-center block md:inline w-auto" 
-            to="/login">
-                Login 
-                </Link>
+                <a href="http://github.com/thebeatkicks"><img src="https://img.icons8.com/ios-filled/50/ffffff/github.png" alt="github" className="w-6 h-6 inline-block ml-2" /></a>
+
                 <button onClick={toggleMenu}>
                     {isOpen ? <FaTimes size={22} /> : <FaBars size={22} />} 
                 </button>
