@@ -5,7 +5,6 @@ import Contact from "./components/Contact.jsx";
 import Portfolio from "./components/Portfolio.jsx";
 import Header from "./components/Header.jsx"
 import Footer from "./components/Footer.jsx";
-import Blog from './components/Blog.jsx';
 import About from './components/About.jsx';
 import Login from './components/Login.jsx'; 
 
@@ -22,7 +21,6 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/blog" element={<Blog />} />
           <Route path="/about" element={<About />} />
           <Route path="/login" element={<Login />} />
         </Routes>
