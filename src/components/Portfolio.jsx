@@ -88,7 +88,15 @@ function Portfolio() {
                     }} /> 
         
       </div>
+      
         )}
+        {isOpen && (
+  <Popupwindow
+    title={popupInfo.title}
+    text={popupInfo.text}
+    onClick={closePopup}
+  />
+)}
       </>
     );
   }
