@@ -30,20 +30,30 @@ function Portfolio() {
 
         {showProjects && (
       <div className="container-row">
-        <PortfolioApp  title="Test my skills"
-                    skillsOne = "#HTML"
-                    skillsTwo = "#CSS"
-                    skillsThree = "#PrePros"
-                    summary = "In this project I had to recreate a website from a figma design. I used a pre-processor to make the css more readable and easier to work with."
-                    learned = "how to use pre-processors"
-                    challenges = "how to work with a hard deadline. Preposessor was new to me and in what order you do things" 
-                    link = "https://github.com/Thebeatkicks/test-your-skills"
-                    img = './assets/test.png'
-                    onClick={() => {
-                      setPopupInfo({  title: "Test my skills", text: "In this project I had to recreate a website from a figma design. I used a pre-processor to make the css more readable and easier to work with."});
-                      setIsOpen(true);
-                    }} >
-        </PortfolioApp> 
+        <PortfolioApp  
+  title="Test my skills"
+  summary="In this project I had to recreate..."
+  learned="how to use pre-processors"
+  challenges="working with a deadline"
+  skillsOne="#HTML"
+  skillsTwo="#CSS"
+  skillsThree="#PrePros"
+  link="https://github.com/..."
+  img="./assets/test.png"
+  onClick={() => {
+    setPopupInfo({
+      title: "Test my skills",
+      summary: "In this project I had to recreate...",
+      learned: "how to use pre-processors",
+      challenges: "working with a deadline",
+      skillsOne: "#HTML",
+      skillsTwo: "#CSS",
+      skillsThree: "#PrePros",
+      link: "https://github.com/..."
+    });
+    setIsOpen(true);
+  }}
+/>
         <PortfolioApp  title="Genesis"
                     skillsOne = "#HTML"
                     skillsTwo = "#CSS"
@@ -54,7 +64,16 @@ function Portfolio() {
                     link = "https://github.com/Thebeatkicks/genesis"
                     img = './assets/henrik.png'
                     onClick={() => {
-                      setPopupInfo({  title: "Test my skills", text: "In this project I had to recreate a website from a figma design. I used a pre-processor to make the css more readable and easier to work with."});
+                      setPopupInfo({
+                        title: "Test my skills",
+                        summary: "In this project I had to recreate...",
+                        learned: "how to use pre-processors",
+                        challenges: "working with a deadline",
+                        skillsOne: "#HTML",
+                        skillsTwo: "#CSS",
+                        skillsThree: "#PrePros",
+                        link: "https://github.com/..."
+                      });
                       setIsOpen(true);
                     }} 
 
@@ -70,7 +89,16 @@ function Portfolio() {
                     challenges = "how to troubleshooting errors in React." 
                     link = "https://github.com/Thebeatkicks/react-1"
                     onClick={() => {
-                      setPopupInfo({  title: "Test my skills", text: "In this project I had to recreate a website from a figma design. I used a pre-processor to make the css more readable and easier to work with."});
+                      setPopupInfo({
+                        title: "Test my skills",
+                        summary: "In this project I had to recreate...",
+                        learned: "how to use pre-processors",
+                        challenges: "working with a deadline",
+                        skillsOne: "#HTML",
+                        skillsTwo: "#CSS",
+                        skillsThree: "#PrePros",
+                        link: "https://github.com/..."
+                      });
                       setIsOpen(true);
                     }} > 
           </PortfolioApp> 
@@ -83,20 +111,25 @@ function Portfolio() {
                     challenges = "It was hard to get the game to work." 
                     link = "https://github.com/Thebeatkicks/lesson-7"
                     onClick={() => {
-                      setPopupInfo({  title: "Test my skills", summary: "In this project I had to recreate a website from a figma design. I used a pre-processor to make the css more readable and easier to work with."});
+                      setPopupInfo({
+                        title: "Test my skills",
+                        summary: "In this project I had to recreate...",
+                        learned: "how to use pre-processors",
+                        challenges: "working with a deadline",
+                        skillsOne: "#HTML",
+                        skillsTwo: "#CSS",
+                        skillsThree: "#PrePros",
+                        link: "https://github.com/..."
+                      });
                       setIsOpen(true);
                     }} /> 
         
       </div>
       
         )}
-        {isOpen && (
-  <Popupwindow
-    title={popupInfo.title}
-    text={popupInfo.text}
-    onClick={closePopup}
-  />
-)}
+       {isOpen && <Popupwindow {...popupInfo} onClick={closePopup} />}
+
+
       </>
     );
   }
