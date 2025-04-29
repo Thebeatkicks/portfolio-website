@@ -5,10 +5,11 @@ export default function HeroSection() {
 <section className="flex flex-col md:flex-row items-center md:items-center justify-center md:justify-center min-h-screen px-6 md:px-16 max-w-7xl mx-auto gap-y-8">
 {/* Vänster sida */}
 <div className="flex flex-col items-center md:flex-1 md:items-start text-center md:text-left justify-center mb-4 md:mb-0 gap-2">
-          <h2 className="text-4xl md:text-6xl font-bold mb-4 font-poppins">
-            Henrik Martini         
-            </h2>
-          <h2 className="text-2xl md:text-4xl font-semibold text-gray-700">
+          
+            <h2 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-[#69c0ca] to-[#6f3ce6] bg-clip-text text-transparent">
+  Henrik Martini
+</h2>
+          <h2 className="text-2xl md:text-4xl font-semibold bg-gradient-to-r from-[#69c0ca] to-[#6f3ce6] bg-clip-text text-transparent">
             Frontend Developer
           </h2>
           <div className="text-center mt-5 mb-2 flex flex-row gap-2 justify-center">

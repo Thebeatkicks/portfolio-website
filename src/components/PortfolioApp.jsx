@@ -11,7 +11,6 @@ return (
       onClick={props.onClick}>
         <h2 className="card-title">{props.title}</h2>
         <img src={screen} className="img" alt="Placeholder" />
-        <img src={props.img} className="img" alt="Placeholder" />
         
         <p className="card-text"> {props.summary}</p>
         <p className="card-text">I learned {props.learned}</p>
