@@ -40,11 +40,11 @@ export default function HeroSection() {
             I create modern, responsive websites and applications with React and Tailwind CSS.          
             </p>
           <div className="flex flex-row flex-wrap gap-2 md:gap-4">
-          <Link to="/portfolio" className="bg-blue-600 hover:bg-blue-800 text-white font-bold py-3 px-6 rounded-lg text-center">
+          <Link to="/portfolio" className="bg-[#69c0ca] hover:bg-[#6f3ce6] text-white font-bold py-3 px-6 rounded-lg text-center">
             My Portfolio
             </Link>
-            <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-3 px-6 rounded-lg">
-              My Components
+            <button className="bg-[#6f3ce6] hover:bg-[#69c0ca] text-white-800 font-bold py-3 px-6 rounded-lg">
+              My Components 
             </button>
           </div>
         </div>

@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
-import { FaGithub } from "react-icons/fa";
 
 function Nav({ isOpen, toggleMenu }) {
   const navItems = [
@@ -25,7 +24,7 @@ function Nav({ isOpen, toggleMenu }) {
     <li key={item.id}>
       <Link
         to={item.slug}
-        className="text-white hover:text-blue-500 transition duration-300"
+        className="text-white hover:text-[#6f3ce6] transition duration-300"
         onClick={toggleMenu}
       >
         {item.text}
