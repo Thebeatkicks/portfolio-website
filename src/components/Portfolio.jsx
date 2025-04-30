@@ -32,18 +32,18 @@ function Portfolio() {
         {showProjects && (
       <div className="container-row">
         <PortfolioApp  
-  title="Test my skills"
+  title="Productly"
   summary="In this project I had to recreate a website from a figma design. I used a lot of different techniques to get the design right. I had to learn how to use flexbox and grid."
   learned="how to use pre-processors"
   challenges="working with a deadline"
   skillsOne="#HTML"
   skillsTwo="#CSS"
   skillsThree="#PrePros"
-  link="https://github.com/Thebeatkicks/test-my-skills" 
+  link="https://github.com/Thebeatkicks/productly" 
   img=""
   onClick={() => {
     setPopupInfo({
-      title: "Test my skills",
+      title: "Productly",
       summary: "In this project I had to recreate a website from a figma design. I used a lot of different techniques to get the design right. I had to learn how to use flexbox and grid.",
       skillsOne: "#HTML",
       skillsTwo: "#CSS",
