@@ -9,13 +9,23 @@ export default function Popupwindow({
     skillsThree,
     link,
     onClick,
-    img
+    vid,
   }) {
     return (
       <div className="fixed inset-0 bg-[#1b1b1f] bg-opacity-60 flex items-center justify-center z-50">
         <div className="bg-[#262b38] text-white p-6 rounded-lg shadow-xl max-w-md w-full mx-4">
           <h2 className="text-2xl font-bold mb-2">{title}</h2>
-          <img src={img} className="img" alt="Placeholder" />
+          {vid && (
+          <video
+            src={vid}
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="w-full rounded mb-4"
+          />
+          )}
+      
 
           <p className="mb-2">{summary}</p>
           <div className="flex gap-2 flex-wrap mb-4">

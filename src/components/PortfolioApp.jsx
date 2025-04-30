@@ -10,7 +10,7 @@ return (
       <div className="cursor-pointer container hover:scale-105 transition-transform duration-300 ease-in-out bg-[#232a38] text-white rounded-lg shadow-lg p-4 m-4"
       onClick={props.onClick}>
         <h2 className="card-title">{props.title}</h2>
-        <img src={screen} className="img" alt="Placeholder" />
+        <img src={props.img} className="img" alt="Placeholder" />
         
         <p className="card-text"> {props.summary}</p>
         <p className="card-text">I learned {props.learned}</p>

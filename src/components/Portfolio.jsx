@@ -1,7 +1,6 @@
 import PortfolioApp from "./PortfolioApp";
 import { useState } from 'react';
 import Popupwindow from "./Popupwindow.jsx";
-import TestMySkillsImg from '../assets/logo1.svg'
 
 
 
@@ -24,7 +23,8 @@ function Portfolio() {
         skillsTwo: "#CSS",
         skillsThree: "#PrePros",
         link: "https://github.com/Thebeatkicks/test-your-skills",
-        img: "/assets/test.png"
+        img: "testyourskills.png",
+        vid: "testyourskillsvid.mp4",
       },
       {
         title: "Genesis",
