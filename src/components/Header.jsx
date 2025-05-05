@@ -14,7 +14,7 @@ const Header = () => {
     <header 
         className="
             flex items-center justify-between px-4 md:px-10 h-20
-            relative text-white border-b-2 border-gray-800 
+            relative text-white rounded-lg border-b-2 border-r-2 border-l-2 border-gray-800 md:ml-50 md:mr-50
             "
     >
         <Logo />
